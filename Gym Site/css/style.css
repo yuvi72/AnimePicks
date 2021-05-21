@@ -1,0 +1,58 @@
+/* CSS Reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('/bg.jpg');
+    background-size: cover;
+   
+
+}
+.left,
+.mid,
+.right {
+    color: #fff;
+}
+
+.logo {
+    position: absolute;
+    size: 15px;
+    left: 34px;
+    top: 20px;
+display: inline-block;
+border: 2px solid #ff0000;
+
+}
+.heading {
+    color: rgb(22, 228, 22);
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    border: 2px solid #008000;
+    font-family: 'Reggae One', cursive;
+
+}
+/* .right {
+position: absolute;
+right: 34px;
+top: 20px;
+display: inline-block;
+border: 2px solid #0000ff;
+} */
+
+/* 
+.navbar {
+    display: inline-block;
+    
+}
+
+.navbar li {
+    display: inline-block;
+font-size: 25px;
+
+}
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 34px 23px;
+    
+} */
