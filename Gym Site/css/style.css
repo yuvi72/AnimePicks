@@ -2,7 +2,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: url('/bg.jpg');
+    background: url('/Gym Site/bg.jpg');
     background-size: cover;
    
 
@@ -15,7 +15,7 @@ body {
 
 .logo {
     position: absolute;
-    size: 15px;
+    size: 10px;
     left: 34px;
     top: 20px;
 display: inline-block;
@@ -29,6 +29,7 @@ border: 2px solid #ff0000;
     margin: 20px auto;
     border: 2px solid #008000;
     font-family: 'Reggae One', cursive;
+    font-size: x-large;
 
 }
 /* .right {
