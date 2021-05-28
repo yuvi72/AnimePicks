@@ -34,7 +34,7 @@ nav a {
 #search input[type=text] {
     padding: 6px;
     border: none;
-    color: white;
+    color: black;
     padding: 10px;
     width: 100%;
     border-radius: 20px;
@@ -54,6 +54,10 @@ nav a {
 #search-icon {
     font-size: 15px;
     color: #bc8b75;
+}
+#search-icon:hover {
+    cursor: pointer;
+    color: black;
 }
 #navContents a:hover {
     color: red;
@@ -83,4 +87,10 @@ footer a {
 }
 #red {
     color: red;
+}
+span {
+    font-weight: bold;
+}
+input:focus {
+    outline: none;
 }
