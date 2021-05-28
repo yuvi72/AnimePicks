@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AnimePicks</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
 <body>
     <header>
@@ -14,15 +15,16 @@
             <div id="left">
                 <h1>AnimePicks</h1>
             </div>
-            <div id="center">
+            <div id="search">
+                <input type="text" placeholder="Search">
+                <button id="searchButton"><i class="fas fa-search" id="search-icon"></i></button>
+            </div>
+            <div id="navContents">
                 <a href="">Home</a>
                 <a href="">Categories</a>
                 <a href="">About</a>
                 <a href="">Login/Signup</a>
                 <a href="">Contact Us</a>
-            </div>
-            <div class="search">
-                <input type="text" placeholder="Search..">
             </div>
         </nav>
     </header>
@@ -30,12 +32,11 @@
     <div class="container"></div>
 
     <footer>
-        <h3>This site is made with love by Yuvraj and Sahil</h3>
         <a href="#">FAQ</a>
         <a href="#">Contact Us</a>
-        <a href="#">terms of Use</a>
+        <a href="#">Terms and Services</a>
         <a href="#">&copy; 2021 | AnimePicks</a>
-
+        <p>-made with <i class="fas fa-heart" id="red"></i> by Yuvraj & Sahil</p>
     </footer>
 
     <script src="js/app.js"></script>
