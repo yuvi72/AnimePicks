@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Creepster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+}
+nav h1 {
+    font-family: 'Creepster', cursive;
+    letter-spacing: 1px;
+    margin: 0 7px;
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Ceviche One', cursive;
+    display: inline-block;
+    margin: 0 10px;
+}
+#left {
+    text-align: left;
+}
+#center {
+    width: 100%;
+    text-align: center;
+}
