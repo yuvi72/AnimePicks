@@ -63,8 +63,8 @@ nav a {
     color: black;
 }
 #navContents a:hover {
-    background-color: blue;
-    transition: background-color 0.3s;
+    background-color:darkgray;
+    transition: background-color 0.4s;
 }
 footer {
     background-color: #333;
