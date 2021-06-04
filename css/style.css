@@ -69,8 +69,6 @@ nav a {
 footer {
     background-color: #333;
     width: 100%;
-    position: absolute;
-    bottom: 0px;
     padding: 5px;
     line-height: 20px;
     display: flex;

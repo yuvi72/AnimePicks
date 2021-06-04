@@ -4,22 +4,11 @@
   box-sizing: border-box;
 }
 
-body{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #000116;
-}
-
 .slider{
   position: relative;
   background: #000116;
-  width: 800px;
-  min-height: 500px;
-  margin: 20px;
-  overflow: hidden;
-  border-radius: 10px;
+  width: 100%;
+  height: 90vh;
 }
 
 .slider .slide{
@@ -84,7 +73,7 @@ body{
   background: rgba(255, 255, 255, 0.5);
   width: 20px;
   height: 10px;
-  transform: translateY(-50px);
+  transform: translateY(50px);
   margin: 0 6px;
   border-radius: 2px;
   box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
