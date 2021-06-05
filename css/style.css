@@ -112,3 +112,12 @@ input:focus {
         -ms-flex-item-align: center;
     }
 }
+
+.container1 {
+    display: flex;
+    align-items:center ;
+    width: 33%;
+}
+.container1 .blocks {
+    width: 100%;
+}
