@@ -47,9 +47,16 @@
   z-index: 999;
   font-size: 2em;
   color: #222;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255);
   padding: 10px;
   cursor: pointer;
+  border: 1px solid black;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.prev-btn:hover, ..next-btn:hover {
+  opacity: 1;
 }
 
 .prev-btn{
@@ -73,7 +80,7 @@
   background: rgba(255, 255, 255, 0.5);
   width: 20px;
   height: 10px;
-  transform: translateY(50px);
+  transform: translateY(30px);
   margin: 0 6px;
   border-radius: 2px;
   box-shadow: 0 5px 25px rgb(1 1 1 / 20%);

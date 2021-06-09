@@ -69,110 +69,31 @@
         </div>
       </div>
     </div>
+    <h2 class="divider">More Animes</h2>
     <div class="container1">
       <div class="blocks">
         <div class="block1">
-          <a href="#"><img src="images/1.jpg" alt=""></a>
+          <a href="#"><img src="images/wp7985880-one-punch-man-hd-android-wallpapers.jpg" class="grid" alt="one punch man"></a>
         </div>
         <div class="block2">
-          <a href="#"><img src="images/2.jpg" alt=""></a>
+          <a href="#"><img src="images/wp4089933-emma-the-promised-neverland-wallpapers.jpg" class="grid" alt="the promised neverland"></a>
         </div>
         <div class="block3">
-          <a href="#"><img src="images/3.jpg" alt=""></a>
+          <a href="#"><img src="images/wp8755963-mushoku-tensei-jobless-reincarnation-wallpapers.jpg" class="grid" alt="mushoku tensai"></a>
         </div>
         <div class="block4">
-          <a href="#"><img src="images/4.jpg" alt=""></a>
+          <a href="#"><img src="images/wp9016467-manjiro-sano-tokyo-revengers-wallpapers.png" class="grid" alt="tokyo revengers"></a>
         </div>
         <div class="block5">
-          <a href="#"><img src="images/5.jpg" alt=""></a>
+          <a href="#"><img src="images/wp8864861-by-the-grace-of-the-gods-wallpapers.jpg" class="grid" alt="by the grace of gods"></a>
         </div>
         <div class="block6">
-          <a href="#"><img src="images/1.jpg" alt=""></a>
+          <a href="#"><img src="images/wp6925127-iphone-the-god-of-high-school-wallpapers.jpg" class="grid" alt="the god of high school"></a>
         </div>
       </div>
     </div>
 
-    <script type="text/javascript">
-      const slider = document.querySelector(".slider");
-      const nextBtn = document.querySelector(".next-btn");
-      const prevBtn = document.querySelector(".prev-btn");
-      const slides = document.querySelectorAll(".slide");
-      const slideIcons = document.querySelectorAll(".slide-icon");
-      const numberOfSlides = slides.length;
-      var slideNumber = 0;
-
-      //image slider next button
-      nextBtn.addEventListener("click", () => {
-        slides.forEach((slide) => {
-          slide.classList.remove("active");
-        });
-        slideIcons.forEach((slideIcon) => {
-          slideIcon.classList.remove("active");
-        });
-
-        slideNumber++;
-
-        if (slideNumber > numberOfSlides - 1) {
-          slideNumber = 0;
-        }
-
-        slides[slideNumber].classList.add("active");
-        slideIcons[slideNumber].classList.add("active");
-      });
-
-      //image slider previous button
-      prevBtn.addEventListener("click", () => {
-        slides.forEach((slide) => {
-          slide.classList.remove("active");
-        });
-        slideIcons.forEach((slideIcon) => {
-          slideIcon.classList.remove("active");
-        });
-
-        slideNumber--;
-
-        if (slideNumber < 0) {
-          slideNumber = numberOfSlides - 1;
-        }
-
-        slides[slideNumber].classList.add("active");
-        slideIcons[slideNumber].classList.add("active");
-      });
-
-      //image slider autoplay
-      var playSlider;
-
-      var repeater = () => {
-        playSlider = setInterval(function () {
-          slides.forEach((slide) => {
-            slide.classList.remove("active");
-          });
-          slideIcons.forEach((slideIcon) => {
-            slideIcon.classList.remove("active");
-          });
-
-          slideNumber++;
-
-          if (slideNumber > numberOfSlides - 1) {
-            slideNumber = 0;
-          }
-
-          slides[slideNumber].classList.add("active");
-          slideIcons[slideNumber].classList.add("active");
-        }, 4000);
-      };
-      repeater();
-
-      //stop the image slider autoplay on mouseover
-      slider.addEventListener("mouseover", () => {
-        clearInterval(playSlider);
-      });
-
-      //start the image slider autoplay again on mouseout
-      slider.addEventListener("mouseout", () => {
-        repeater();
-      });
-    </script>
+    <script src="js/slider.js"></script>
 
     <footer class="foot">
       <a href="#">FAQ</a>
